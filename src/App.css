@@ -13,3 +13,7 @@
 .description_label {
   justify-content: space-between;
 }
+
+.btn-check:checked+.btn-outline-dark {
+  background-color: #ed8e53 !important;
+}
