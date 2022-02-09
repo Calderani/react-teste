@@ -77,15 +77,15 @@ function App() {
                 Líquido
               </ToggleButton>
             </ToggleButtonGroup>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3 input_label">
               <Form.Label>Aporte Inicial</Form.Label>
               <Form.Control required name="initial_investiment" onChange={initialInvestimentChangeHandler} />
             </Form.Group>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3 input_label">
               <Form.Label>Prazo (em meses)</Form.Label>
               <Form.Control required name="months" onChange={monthsChangeHandler} />
             </Form.Group>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3 input_label">
               <Form.Label>IPCA (ao ano)</Form.Label>
               <Form.Control required name="ipca" onChange={ipcaChangeHandler} />
             </Form.Group>
@@ -107,15 +107,15 @@ function App() {
                 FIXADO
               </ToggleButton>
             </ToggleButtonGroup>
-            <Form.Group className="mb-3">
-              <Form.Label >Aporte Mensal</Form.Label>
+            <Form.Group className="mb-3 input_label">
+              <Form.Label>Aporte Mensal</Form.Label>
               <Form.Control required name="monthly_investiment" onChange={monthlyInvestimentChangeHandler} />
             </Form.Group>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3 input_label">
               <Form.Label>Rentabilidade</Form.Label>
               <Form.Control required name="profitability" onChange={profitabilityChangeHandler} />
             </Form.Group>
-            <Form.Group className="mb-3">
+            <Form.Group className="mb-3 input_label">
               <Form.Label>CDI (ao ano)</Form.Label>
               <Form.Control required name="cdi" onChange={cdiChangeHandler} />
             </Form.Group>

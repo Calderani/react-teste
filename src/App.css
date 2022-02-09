@@ -10,10 +10,31 @@
   text-align: left;
 }
 
+.input_label {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+}
+
 .description_label {
   justify-content: space-between;
 }
 
 .btn-check:checked+.btn-outline-dark {
   background-color: #ed8e53 !important;
+}
+
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+  background-color: #ed8e53 !important;
+  border-color: #ed8e53 !important;
+}
+
+input {
+  border: none !important;
+  border-radius: 0px !important;
+  border-bottom: 1px solid black !important;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+  border-color: #dc3545 !important;
 }
